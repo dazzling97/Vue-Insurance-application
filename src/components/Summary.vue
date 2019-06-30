@@ -209,21 +209,16 @@
 
 
 <script>
-import Datepicker from 'vuejs-datepicker'
 
-var state = {
-  date: new Date(2016, 9,  16)
-}
+
 
 export default {
    components:{
-       Datepicker
+       
     }
 }
 </script>
 
-
-<datepicker :value="state.date"></datepicker>
 
 <style lang="scss" scoped>
 @import "../styles/varibles.scss";
