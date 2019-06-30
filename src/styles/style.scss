@@ -1,0 +1,8 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "./varibles.scss";
+@import "./mixin.scss";
+
+.body{
+    font-size:$Primary-size;
+    font-family:'Avenir', Helvetica, Arial, sans-serif;
+}
